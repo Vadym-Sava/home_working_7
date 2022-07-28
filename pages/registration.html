@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+
+<body>
+  <h1>Регистрация</h1>
+  <div>
+    <ol>
+      <li><a href="../index.html">Главная</a></li>
+      <li><a href="articles.html">Статьи</a></li>
+      <li><a href="catalog.html">Каталог</a></li>
+      <li><a href="contacts.html">Контакты</a></li>
+      <li><a href="gallery.html">Галерея</a></li>
+      <li><a href="page-nav.html">Навигация</a></li>
+      <li><a href="registration.html">Регистрация</a></li>
+    </ol>
+  </div>
+
+  <form action="https://tests.fomenko.top/echo/index.php" method="get">
+    <fieldset>
+      <legend>Основние данные</legend>
+      <div>
+        <label for="fam">Фамилия</label>
+        <input name="lgn" id="fam" type="text" placeholder="Фамилия">
+      </div>
+      <div>
+        <label for="name">Имя</label>
+        <input name="lgn" id="name" type="text" placeholder="Имя">
+      </div>
+      <div>
+        <label for="file">Фотография</label>
+        <input name="file" id="file" type="file">
+      </div>
+      <div>
+        <label for="email">Адрес почти</label>
+        <input name="email" id="email" type="text" placeholder="Адрес почти">
+      </div>
+      <div>
+        <label for="pasw">Пароль</label>
+        <input name="pasw" id="pasw" type="password" placeholder="Пароль">
+      </div>
+      <div>
+        <label for="url">Адрес сайта</label>
+        <input name="url" id="url" type="url" placeholder="Адрес сайта" value="https://mysite.name">
+      </div>
+    </fieldset>
+
+
+
+    <fieldset>
+      <legend>Пол</legend>
+      <p>Ваш пол</p>
+      <div>
+        <input value="gender-male" id="gender-male" type="radio" name="male">
+        <label for="gender-male">Мужской</label>
+      </div>
+      <div>
+        <input value="gender-female" id="gender-female" type="radio" name="male">
+        <label for="gender-female">Женский</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Дата рождения</legend>
+      <div>
+        <label for="date">Укажите дату</label>
+        <input type="date" id="date" name="date" />
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Кухня</legend>
+      <p>Виберете предпочитаемую кухню</p>
+      <div>
+        <input checked name="kit" value="ua" id="ua" type="checkbox">
+        <label for="ua">Украинская</label>
+      </div>
+      <div>
+        <input checked name="kit" value="md" id="md" type="checkbox">
+        <label for="md">Молдавская</label>
+      </div>
+      <div>
+        <input checked name="kit" value="ch" id="ch" type="checkbox">
+        <label for="ch">Китайская</label>
+      </div>
+      <div>
+        <input checked name="kit" value="gr" id="gr" type="checkbox">
+        <label for="gr">Грузинская</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Многострочний текст</legend>
+      <div>
+        <label for="multitext">О себе</label>
+        <textarea name="txt" id="multitext" cols="50" rows="10" placeholder="Введите информацию..."></textarea>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Управление</legend>
+      <div>
+        <button type="submit">Зарегистрироваться</button>
+      </div>
+      <div>
+        <button type="reset">Очистить</button>
+      </div>
+    </fieldset>
+  </form>
+  <div>
+    <footer>
+      &#169; Савчук Вадим
+    </footer>
+  </div>
+</body>
+
+</html>

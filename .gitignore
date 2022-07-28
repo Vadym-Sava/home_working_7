@@ -1,0 +1,6 @@
+vscode/
+.idea/
+node_modules/
+.DS_Store
+home_working_7.code-workspace
+.vscode
